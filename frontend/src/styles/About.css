@@ -1,0 +1,74 @@
+body {
+  font-family: Georgia, serif; /* Change the font family as needed */
+}
+
+.box-container {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.sliding-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/logo2.png");
+  background-size: 75% 95%;
+  animation: slide 25s linear infinite;
+  opacity: 0.5;
+}
+
+h4 {
+  font-weight: 1000; /* Increase the font-weight for extra boldness */
+  margin: 2rem 0;
+  font-size: 2.5rem; /* Increase the font size for emphasis */
+  font-family: 'Georgia', sans-serif; /* You can choose a modern sans-serif font */
+  text-transform: uppercase; /* Convert text to uppercase for a title effect */
+  color: #333; /* Set the text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+h5 {
+  font-weight: bold;
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #333; /* Choose an appropriate text color */
+ /* Center-align the text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+  margin-bottom: 20px; /* Add some space below the title */
+  /* You can also add additional styling as needed, such as a background color or padding */
+}
+
+
+
+p {
+  text-align: justify;
+  font-family: Georgia, serif; /* Apply the font family to descriptions */
+}
+
+@media (max-width: 600px) {
+  .box-container {
+    margin-top: 0;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}

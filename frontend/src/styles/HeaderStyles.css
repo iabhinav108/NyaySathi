@@ -1,0 +1,81 @@
+.navigation-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50bh;
+}
+
+.navigation-menu li {
+    margin: 0px 20px;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+    color: white;
+    display: inline-block;
+  padding: 10px 20px; 
+
+  transition: 0.3s ease-in;
+}
+
+.navigation-menu li a:hover {
+  background-color: #6b6565; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+  border-radius: 5px; /* Rounded corners */
+  transform: scale(1.1); /* Scale up the link for a subtle effect */
+}
+
+
+/* mobile view */
+.mobile-navigation{
+    list-style: none;
+}
+.mobile-navigation li {
+    margin-top: 20px;
+}
+
+.mobile-navigation li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #333;
+}
+.india-emblem {
+    width: 35px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  .logo-logo {
+    width: 120px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height */
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+    background-color: #1a1a1a; /* Dark background color */
+  }
+  
+  /* Style the logo text */
+  .NyaySathi-title {
+    font-size: 30px; /* Adjust the font size for emphasis */
+    font-family: 'Roboto'; /* Choose a professional font */
+    letter-spacing: 2px; /* Adjust letter spacing for clarity */
+    text-shadow: none; /* Remove text shadow for a cleaner look */
+    display: flex;
+  }
+  
+  /* Style individual letters with colors */
+  .saffron {
+    color: #ff9933; /* Saffron color */
+  }
+  
+  .white {
+    color: #ffffff; /* White color */
+  }
+  
+  .green {
+    color: #009900; /* Green color */
+  }
