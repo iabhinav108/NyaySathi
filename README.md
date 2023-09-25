@@ -1,8 +1,12 @@
 # NyaySathi
-SIH 2023 
+SIH 2023
+Smart BU Hackathon
+
 Team Name: Tech Titans
 Team Leader: Abhinav Srivastava
 Team Members - V Harshath, Shivang Goyal, Hasbi Fathima, Asmit Parida, Nishtha Nagar
+
+Youtube Video Link Demonstrating the workings of our project:https://youtu.be/yw4k0lUD7_w
 
 Instructions to Get Started with this Project:
 Firstly install node js framework from the original website. Refer to this link:https://nodejs.org/en
